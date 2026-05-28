@@ -42,7 +42,7 @@ target units equal to 1 unit of the currency you want to convert from.
 
 ```bash
 # Compile
-gcc unitflip -o unitflip
+gcc unitflip.c -o unitflip
 
 # Run
 ./unitflip
