@@ -10,9 +10,9 @@ int main() {
             printf("=> ");
             if (scanf("%lf",&unit)>0) {
                 double result=unit*ratio;
-                int round=(int)result;
-                if (round==result) {
-                    printf("=> %d UNIT\n",round);
+                int rounded=(int)result;
+                if (rounded==result) {
+                    printf("=> %d UNIT\n",rounded);
                 } else printf("=> %.4lf UNIT\n",result);
             } 
             else {
@@ -22,5 +22,6 @@ int main() {
         }
         
     } else {printf("Invalid input! Try again...\n"); return 0; }
-}
+    }
+    return 0;
 }
