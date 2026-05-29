@@ -16,12 +16,12 @@ int main() {
                 } else printf("=> %.4lf UNIT\n",result);
             } 
             else {
-                printf("Invalid Input! Try again...\n");
+                printf("Invalid Input! Exiting...\n");
                 return 0;
             }
         }
         
-    } else {printf("Invalid input! Try again...\n"); return 0; }
+    } else {printf("Invalid input! Exiting...\n"); return 0; }
     }
     return 0;
 }
